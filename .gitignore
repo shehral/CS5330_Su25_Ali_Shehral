@@ -1,0 +1,28 @@
+# Virtual Environment
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# IDE/Editor
+.idea/
+.vscode/
+
+# Personal config
+.obsidian/
+
+# Local reference folders
+Docs/
+OpenCV Workshops/
+
+# Dependencies
+requirements.txt
