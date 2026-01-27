@@ -108,6 +108,10 @@ def main():
     grayscale_flower_avg = grayscale(flower_path)
     grayscale_flower_avg.show()
 
+    # Save output
+    output_path = os.path.join(SCRIPT_DIR, 'outputs', 'grayscale_flower.png')
+    grayscale_flower_avg.pil_image.save(output_path)
+
 
 if __name__ == '__main__':
     main()

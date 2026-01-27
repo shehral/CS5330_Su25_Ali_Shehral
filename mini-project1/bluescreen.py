@@ -65,6 +65,10 @@ def main():
     result = bluescreen(musk_path, flower_path)
     result.show()
 
+    # Save output
+    output_path = os.path.join(SCRIPT_DIR, 'outputs', 'bluescreen_result.png')
+    result.pil_image.save(output_path)
+
 
 if __name__ == '__main__':
     main()
