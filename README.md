@@ -12,3 +12,4 @@
 
 - `mini-project1/` - Homework 1 submission
 - `mini-project2/` - Real-time image warping
+- `mini-project3/` - Sewing Machine: SIFT feature detection & matching
